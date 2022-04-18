@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+     Harshil Hingu
+    </h1>
+
+    <form id="form" method="post" action="register">
+        Username<br />
+        <input type="text" id="user_input" name="username" required /><br /><br />
+        Password<br />
+        <input type="password" id="pass_input" name="password" required /><br /><br />
+        Confirm Password<br />
+        <input type="password" id="confirm_pass_input" name="confirm_pass_input" required /><br /><br />
+        Country<br />
+        <select id="country" name="country" required>
+            <option>Select your country</option>
+        </select>
+        <br /><br />
+        <input type="checkbox" name="confirm" id="confirm" required>
+        <label for="confirm">I accept the terms of service</label>
+        <br /><br />
+        <input type="submit" id="submit_button" value="Submit">
+    </form>
+    <br />
+    <div id="info"></div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
